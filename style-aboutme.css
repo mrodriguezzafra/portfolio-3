@@ -1,0 +1,38 @@
+.nav-about-me-item {
+    background-color:#04009a;
+    margin: 5px 20px;
+    padding: 10px 20px;
+    border-radius: 5%;
+    color: #fcfcfc;
+    font-family: "Lato", sans-serif;
+  }
+
+  .nav-about-me-item:hover{
+    color:#3EDBF0;
+  }
+
+  .nav-about-me {
+    display: flex;
+}
+
+@media (max-width: 900px) {
+
+    .nav-about-me {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.intro-about-me {
+    margin: 2%;
+    padding: 2%;
+    width: 70%;
+    font-family: "lato", sans-serif;
+    font-weight: 200;
+    border: solid #f2fa5a 5px;
+}
+
+.image-header {
+    border-radius: 50%; 
+}
+
